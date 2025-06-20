@@ -25,7 +25,7 @@ export default function Testimonials() {
 	return (
 		<section
 			id="testimonials"
-			className="max-w-6xl mx-auto py-10 px-4 sm:px-6 md:px-12 lg:px-20 bg-white border-t border-gray-200"
+			className="max-w-6xl mx-auto py-[3rem] px-4 sm:px-6 md:px-12 lg:px-20 bg-white border-t border-gray-200"
 		>
 			<h2 className="text-2xl font-semibold text-gray-800 mb-6 text-center md:text-left">
 				What Patients Say ?

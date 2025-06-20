@@ -39,7 +39,7 @@ export default function Navbar() {
 						<Link
 							key={index}
 							href={item.link}
-							scroll={false}
+							scroll={true}
 							className="border-b-[1px] border-sky-800 hover:border-slate-200 font-medium text-slate-200"
 						>
 							{item.text}
@@ -47,7 +47,7 @@ export default function Navbar() {
 					))}
 					<Link
 						href="#contact"
-						scroll={false}
+						scroll={true}
 						className="bg-sky-600 text-white px-4 py-2 rounded-md hover:bg-transparent border-2 border-sky-800 hover:border-sky-200 font-medium"
 					>
 						Contact me
@@ -72,7 +72,7 @@ export default function Navbar() {
 						<Link
 							key={index}
 							href={item.link}
-							scroll={false}
+							scroll={true}
 							className="block font-medium text-sm hover:text-sky-200 transition-colors"
 							onClick={() => setIsOpen(false)}
 						>

@@ -35,7 +35,7 @@ export default function Home() {
     
     {/* testimonials section  */}
 
-    <Testimonials/>
+      <Testimonials/>
 
     </div>
   );
