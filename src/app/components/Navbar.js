@@ -27,7 +27,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-sky-800 text-gray-800 px-6 py-4 shadow relative z-50">
+    <nav className="bg-sky-800 text-gray-800 px-6 py-4 shadow relative z-50 min-w-sm">
       <div className="flex justify-between items-center">
         <div className="font-semibold text-2xl italic text-slate-200">Dr. Sudarshan</div>
 

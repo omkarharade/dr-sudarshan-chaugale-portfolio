@@ -3,9 +3,9 @@ const surgeonNoBg =  "/images/surgeon.png"; // Replace with correct path
 
 export default function Home() {
   return (
-    <>  
+    <div className="w-full min-w-sm">  
 
-    <section id="hero" className="bg-sky-800 w-full ">
+    <section id="hero" className="bg-sky-800 w-full">
       {/* Left Text Area */}
       <div className="max-w-6xl flex flex-col-reverse md:flex-row items-center justify-between px-8 md:px-20 pt-4 mx-auto ">
         <div className="max-w-xl py-[2rem] md:py-0">
@@ -30,6 +30,6 @@ export default function Home() {
       </div>
       </div>
     </section>
-    </>
+    </div>
   );
 }
