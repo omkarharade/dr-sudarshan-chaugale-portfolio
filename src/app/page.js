@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Testimonials from "./components/testimonials";
 const surgeonNoBg =  "/images/surgeon.png"; // Replace with correct path
 
 export default function Home() {
@@ -12,7 +13,7 @@ export default function Home() {
         <h1 className="text-3xl md:text-4xl font-bold text-slate-200 mb-10">
           Early care leads to lasting relief. <br /> Your gut deserves it.
         </h1>
-        <button className="bg-sky-600 hover:bg-slate-300 hover:text-black border-2 border-sky-600 font-semibold text-slate-100 py-1 px-3 rounded cursor-pointer">
+        <button className="bg-sky-600 hover:bg-slate-300 hover:text-black border-2 border-sky-600 font-semibold text-slate-100 py-1 px-3 md:py-3 md:px-5 2xl:px-6 2xl:py-4 2xl:text-xl rounded cursor-pointer">
           Make Appointment
         </button>
       </div>
@@ -30,6 +31,12 @@ export default function Home() {
       </div>
       </div>
     </section>
+
+    
+    {/* testimonials section  */}
+
+    <Testimonials/>
+
     </div>
   );
 }
