@@ -21,7 +21,7 @@ export default function MapSection() {
   return (
     <div className="w-full h-96 rounded-md overflow-hidden shadow">
       <MapContainer
-        center={[15.8528, 74.4987]} // Belagavi coordinates
+        center={[15.8655504,74.5076743]} // Belagavi coordinates
         zoom={13}
         scrollWheelZoom={false}
         style={{ height: '100%', width: '100%' }}
@@ -30,7 +30,7 @@ export default function MapSection() {
           attribution='&copy; OpenStreetMap contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        <Marker position={[15.8497, 74.4977]}>
+        <Marker position={[15.8655504,74.5076743]}>
           <Popup>Clinic Location: Belagavi</Popup>
         </Marker>
       </MapContainer>
