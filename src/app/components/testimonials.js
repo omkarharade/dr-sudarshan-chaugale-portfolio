@@ -12,8 +12,6 @@ export default function Testimonials() {
 	const prev = () => setIndex((prev) => (len + prev - 1 ) % len);
     const { name, rating, message } = testimonials[index];
 
-    console.log("index value is  = ", index);
-
 	// Trim message (e.g. 35 words max)
 	const trimMessage = (text, maxWords = 35) => {
 		const words = text.split(" ");

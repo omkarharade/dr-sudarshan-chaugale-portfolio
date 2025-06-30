@@ -6,12 +6,12 @@ import { Menu, X } from "lucide-react";
 
 const navLinks = [
 	{
-		link: "#expertise-in",
-		text: "Expertise In",
-	},
-	{
 		link: "#about-me",
 		text: "About Me",
+	},
+	{
+		link: "#expertise-in",
+		text: "Expertise In",
 	},
 	{
 		link: "#testimonials",
