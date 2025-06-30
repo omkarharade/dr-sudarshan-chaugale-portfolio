@@ -5,7 +5,8 @@ const myImage = "/images/my-image.png";
 const sickIntestine = "/images/sick intestine.png";
 const healthyIntestine = "/images/healthy intestine.png";
 import aboutMeData from "@/app/aboutMe.json";
-import Expertise from "./components/expertise";
+import Expertise from "./components/Expertise";
+import FindMe from "./components/FindMe";
 
 export default function Home() {
 	return (
@@ -118,6 +119,9 @@ export default function Home() {
 					</div>
 				</div>
 			</section>
+
+			{/* find me section  */}
+			<FindMe/>
 		</div>
 	);
 }
